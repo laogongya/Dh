@@ -1,5 +1,0 @@
-
-调用方法
-http://localhost:14/index.php?url=
-或者
-http://localhost:14/?url=
