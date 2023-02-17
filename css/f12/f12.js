@@ -1,4 +1,4 @@
- <script>
+ 
     function fuckyou(){
       window.close(); //关闭当前窗口(防抽)
       swindow.location="about:blank"; //将当前窗口跳转置空白页
