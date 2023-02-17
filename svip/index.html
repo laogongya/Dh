@@ -7,13 +7,35 @@
     <meta name="author" content="">
 	
     <title>LAOGONGYA-TV</title>
-<script src="css/f12/f12.js"></script>
+
 </head>
 <body>
 
- <iframe name="LAOGONGYA-TV" id="laogongya" src="https://svip.laogongyatv.eu.org" frameborder="0" align="left" width="100%" height="100%" scrolling="no">
+ <iframe name="LAOGONGYA-TV" id="laogongya" src="https://svip.laogongyatv.eu.org" frameborder="0" align="left" width="100%" height="1000%" scrolling="no">
 
 
+<script>
+    //网站禁止右键
+    document.body.oncontextmenu = function() {
+    self.event.returnValue=false
+};
+//按键触发
+document.onkeydown = function(){
+    //禁止 F12
+    if (window.event && window.event.keyCode == 123) {
+    event.keyCode = 0;
+    event.returnValue = false;
+    }
+    }
+//按键触发
+document.onkeydown = function(){
+    //禁止ctrl+u
+    if (event.ctrlKey && window.event.keyCode==85){
+    return false;
+    }
+    }
+
+</script>
 
 </body>
 </html>
