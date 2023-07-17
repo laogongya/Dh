@@ -5,25 +5,6 @@
 
 	"sites": [
 		{
-			"key": "小苹果",
-			"name": "🍎接口仅供测试，请勿滥用",
-			"type": 3,
-			"api": "csp_LiteApple",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"jar": "http://45.125.46.61/xpg.jar;md5;d3828dbc91d98c3ebc258e6f7874a30c"
-		},
-		{
-			"key": "csp_Kunyu77",
-			"name": "🍎备份源一",
-			"type": 3,
-			"api": "csp_Kunyu77",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1
-		},
-		{
 			"key": "快看",
 			"name": "🍎备份源二",
 			"type": 3,
